@@ -1,0 +1,20 @@
+# Jekyll configuration for GitHub Pages
+title: 산리오 MBTI 테스트
+description: 당신의 성격 유형을 알아보고 산리오 캐릭터를 찾아보세요!
+url: "https://hyojaezz.github.io"
+baseurl: "/sanrio-mbti"
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - node_modules
+  - src
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - .github
