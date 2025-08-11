@@ -16,7 +16,7 @@
           <div class="character-image">
             <img 
               v-if="character.imageName"
-              :src="`/images/characters/${character.imageName}.png`" 
+              :src="`/sanrio-mbti/images/characters/${character.imageName}.png`" 
               :alt="character.name"
               class="character-img"
               @error="handleImageError"
@@ -47,7 +47,7 @@
               <div class="compatible-image">
                 <img 
                   v-if="compatible.imageName"
-                  :src="`/images/characters/${compatible.imageName}.png`" 
+                  :src="`/sanrio-mbti/images/characters/${compatible.imageName}.png`" 
                   :alt="compatible.name"
                   class="compatible-img"
                   @error="handleCompatibleImageError"
